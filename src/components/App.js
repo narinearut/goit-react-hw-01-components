@@ -20,7 +20,9 @@ export default function App() {
 
       <Statistics 
       title="Upload stats" 
-      stats={data} />
+      stats={data} 
+        
+      />
 
       {/* <FriendList 
       friends={friends} 
@@ -31,7 +33,6 @@ export default function App() {
       name = {friends.name}
       isOnline = {friends.isOnline}
       /> */}
-
     </div>
   );
 }
